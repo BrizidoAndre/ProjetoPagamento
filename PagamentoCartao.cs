@@ -10,9 +10,10 @@ namespace ProjetoPagamento
 
 
         public abstract string SalvarCartao(string cartaoSalvo);
+
         public void Pagar()
         {
-           Console.WriteLine($"O pagamento foi efetuado com sucesso !");
+           Console.WriteLine($"O pagamento foi efetuado com sucesso .");
             
         }
     }
