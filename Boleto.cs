@@ -3,7 +3,6 @@ namespace ProjetoPagamento
 {
     public class Boleto
     {
-        
         private string codigoBarras;
         private float desconto = 0.88F;
         public void Registrar(float valorPago, DateTime data){
