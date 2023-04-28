@@ -1,2 +1,1 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Criar um sistema de pagamento de debito em c# onde o unico atributo eh o saldo e ele eh privado
