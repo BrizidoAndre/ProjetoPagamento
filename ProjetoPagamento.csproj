@@ -4,7 +4,14 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <Nullable>disable</Nullable>
+=======
+>>>>>>> develop
+=======
+    <Nullable>disable</Nullable>
+>>>>>>> 27ce7d2fafb19400329864924e6cd812f88b552d
   </PropertyGroup>
 
 </Project>
