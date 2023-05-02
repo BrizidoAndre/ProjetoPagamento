@@ -13,7 +13,6 @@ Console.WriteLine(@$"
 |                                           |
 |   0- Sair/Fechar                          |
  -------------------------------------------
-
 ");
 Console.WriteLine($"Seleciona a opção desejada: ");
 Console.ResetColor();
@@ -84,7 +83,7 @@ do
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"Fechando... Obrigado!");
                     Console.ResetColor();
-
+                    
                     break;
 
                 default:
