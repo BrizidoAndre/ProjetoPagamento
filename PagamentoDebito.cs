@@ -5,7 +5,7 @@ namespace ProjetoPagamento
     {
         private float saldo = 3000;
 
-        public void Pagar(float saldoAtual)
+        public override void Pagar(float saldoAtual)
         {
             if (valor > saldo)
             {
