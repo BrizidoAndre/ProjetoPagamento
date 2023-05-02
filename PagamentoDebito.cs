@@ -1,13 +1,9 @@
 
 namespace ProjetoPagamento
 {
-    public class PagamentoDebito
+    public class PagamentoDebito : PagamentoCartao
     {
         private float saldo = 3000;
-        public string CVV { get; set; }
-        public string Titular { get; set; }
-        public string NumeroCartao { get; set; }
-        public string Bandeira { get; set; }
 
         public void Pagar(float valor, float saldoAtual)
         {

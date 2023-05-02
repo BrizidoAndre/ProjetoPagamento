@@ -13,6 +13,7 @@ C:\Users\51910007811\Desktop\ProjetoPagamento\obj\Debug\net7.0\refint\ProjetoPag
 C:\Users\51910007811\Desktop\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.pdb
 C:\Users\51910007811\Desktop\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.genruntimeconfig.cache
 C:\Users\51910007811\Desktop\ProjetoPagamento\obj\Debug\net7.0\ref\ProjetoPagamento.dll
+<<<<<<< HEAD
 C:\Users\47447272809\Desktop\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.csproj.AssemblyReference.cache
 C:\Users\47447272809\Desktop\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\47447272809\Desktop\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.AssemblyInfoInputs.cache
@@ -21,3 +22,20 @@ C:\Users\47447272809\Desktop\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.
 C:\Users\47447272809\Desktop\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.dll
 C:\Users\47447272809\Desktop\ProjetoPagamento\obj\Debug\net7.0\refint\ProjetoPagamento.dll
 C:\Users\47447272809\Desktop\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.pdb
+=======
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\bin\Debug\net7.0\ProjetoPagamento.exe
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\bin\Debug\net7.0\ProjetoPagamento.deps.json
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\bin\Debug\net7.0\ProjetoPagamento.runtimeconfig.json
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\bin\Debug\net7.0\ProjetoPagamento.dll
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\bin\Debug\net7.0\ProjetoPagamento.pdb
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.csproj.AssemblyReference.cache
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.AssemblyInfoInputs.cache
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.AssemblyInfo.cs
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.csproj.CoreCompileInputs.cache
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.dll
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\obj\Debug\net7.0\refint\ProjetoPagamento.dll
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.pdb
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\obj\Debug\net7.0\ProjetoPagamento.genruntimeconfig.cache
+C:\Users\Basilios\Desktop\Nova pasta\ProjetoPagamento\obj\Debug\net7.0\ref\ProjetoPagamento.dll
+>>>>>>> 27ce7d2fafb19400329864924e6cd812f88b552d

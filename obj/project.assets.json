@@ -8,11 +8,16 @@
     "net7.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\47447272809\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Basilios\\.nuget\\packages\\": {}
+>>>>>>> 27ce7d2fafb19400329864924e6cd812f88b552d
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\47447272809\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
       "projectName": "ProjetoPagamento",
       "projectPath": "C:\\Users\\47447272809\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
@@ -22,12 +27,21 @@
       "configFilePaths": [
         "C:\\Users\\47447272809\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+      "projectUniqueName": "C:\\Users\\Basilios\\Desktop\\Nova pasta\\ProjetoPagamento\\ProjetoPagamento.csproj",
+      "projectName": "ProjetoPagamento",
+      "projectPath": "C:\\Users\\Basilios\\Desktop\\Nova pasta\\ProjetoPagamento\\ProjetoPagamento.csproj",
+      "packagesPath": "C:\\Users\\Basilios\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Basilios\\Desktop\\Nova pasta\\ProjetoPagamento\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Basilios\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 27ce7d2fafb19400329864924e6cd812f88b552d
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +75,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
