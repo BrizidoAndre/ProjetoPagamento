@@ -50,13 +50,6 @@ do
 
             break;
 
-
-
-
-
-
-
-
         case "3":
             Console.WriteLine($"Qual o valor do seu pagamento?: ");
             debito.valor = float.Parse(Console.ReadLine());
