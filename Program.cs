@@ -1,30 +1,44 @@
-﻿string bandeira = "";
-string opcao = "";
+﻿using ProjetoPagamento;
 
-Console.ForegroundColor = ConsoleColor.Blue;
-Console.WriteLine(@$"
+string opcao = "";
+Boleto PagarBoleto = new Boleto();
+Pagamento pague = new Pagamento();
+PagamentoDebito debito = new PagamentoDebito();
+
+
+
+void menu()
+{
+    Console.ForegroundColor = ConsoleColor.Blue;
+    Console.WriteLine(@$"
  -------------------------------------------
 |     Projeto Pagamento - Loja Virtual      |
 |                                           |
 |   1- Boleto                               |
 |   2- Crédito                              |
 |   3- Débito                               |
-|   4- Cancelar Operação                    |
 |                                           |
 |   0- Sair/Fechar                          |
  -------------------------------------------
-
 ");
-Console.WriteLine($"Seleciona a opção desejada: ");
-Console.ResetColor();
-opcao = Console.ReadLine();
+    Console.WriteLine($"Seleciona a opção desejada: ");
+    Console.ResetColor();
+    opcao = Console.ReadLine();
+}
 
 do
 {
+    menu();
     switch (opcao)
     {
         case "1":
+            Console.WriteLine($"Qual o valor do seu pagamento?: ");
+            PagarBoleto.valor = float.Parse(Console.ReadLine());
 
+
+            Console.WriteLine(PagarBoleto.CodigoDeBarras());
+            PagarBoleto.Registrar();
+            menu();
             break;
 
 
@@ -32,70 +46,9 @@ do
 
 
         case "2":
+            debito.SalvarCartao();
 
-        do
-        {
-            
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine(@$"
- -------------------------------------------
-|     Selecione a bandeira do cartão        |
-|                                           |
-|   1- Visa                                 |
-|   2- MasterCard                           |
-|   3- Elo                                  |
-|   4- American Express                     |
-|                                           |
-|   0- Sair/Fechar                          |
- -------------------------------------------
-        ");
-
-            Console.WriteLine($"Selecione a bandeira:");
-
-            bandeira = Console.ReadLine();
-            Console.ResetColor();
-            switch (bandeira)
-            {
-                case "1":
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"Bandeira selecionada: Visa");
-                    Console.ResetColor();
-                    break;
-
-                case "2":
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"Bandeira selecionada: MasterCard");
-                    Console.ResetColor();
-                    break;
-
-                case "3":
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"Bandeira selecionada: Elo");
-                    Console.ResetColor();
-                    break;
-
-                case "4":
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"Bandeira selecionada: American Express");
-                    Console.ResetColor();
-                    break;
-
-                case "0":
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Fechando... Obrigado!");
-                    Console.ResetColor();
-
-                    break;
-
-                default:
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Opção inexistente! Tente novamente: ");
-                    Console.ResetColor();
-                    bandeira = Console.ReadLine();
-                    break;
-            }
-        } while (bandeira != "0");
-            break; 
+            break;
 
 
 
@@ -105,19 +58,17 @@ do
 
 
         case "3":
-
+            Console.WriteLine($"Qual o valor do seu pagamento?: ");
+            debito.valor = float.Parse(Console.ReadLine());
+            debito.SalvarCartao();
+            debito.Pagar();
+            menu();
             break;
 
-        case "4":
-
-            break;
 
         case "0":
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"Fechando... Obrigado!");
-            Console.ResetColor();
-
             break;
+            
         default:
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine($"Opção inexistente! Tente novamente: ");
@@ -128,3 +79,6 @@ do
 
 
 } while (opcao != "0");
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine(pague.Cancelar());
+Console.ResetColor();

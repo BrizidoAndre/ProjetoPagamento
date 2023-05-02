@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\T-Gamer\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj": {}
+    "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento - Menu\\ProjetoPagamento.csproj": {}
   },
   "projects": {
-    "C:\\Users\\T-Gamer\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj": {
+    "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento - Menu\\ProjetoPagamento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\T-Gamer\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
+        "projectUniqueName": "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento - Menu\\ProjetoPagamento.csproj",
         "projectName": "ProjetoPagamento",
-        "projectPath": "C:\\Users\\T-Gamer\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
-        "packagesPath": "C:\\Users\\T-Gamer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\T-Gamer\\Desktop\\ProjetoPagamento\\obj\\",
+        "projectPath": "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento - Menu\\ProjetoPagamento.csproj",
+        "packagesPath": "C:\\Users\\23655858841\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento - Menu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\T-Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\23655858841\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
