@@ -5,7 +5,7 @@ namespace ProjetoPagamento
     {
         private float saldo = 3000;
 
-        public void Pagar(float valor, float saldoAtual)
+        public void Pagar(valor, float saldoAtual)
         {
             if (valor > saldo)
             {
