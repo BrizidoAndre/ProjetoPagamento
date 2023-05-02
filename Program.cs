@@ -38,7 +38,6 @@ do
 
             Console.WriteLine(PagarBoleto.CodigoDeBarras());
             PagarBoleto.Registrar();
-            menu();
             break;
 
 
@@ -47,7 +46,6 @@ do
 
         case "2":
             debito.SalvarCartao();
-
             break;
 
         case "3":
@@ -55,7 +53,6 @@ do
             debito.valor = float.Parse(Console.ReadLine());
             debito.SalvarCartao();
             debito.Pagar();
-            menu();
             break;
 
 

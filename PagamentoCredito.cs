@@ -10,7 +10,7 @@ namespace ProjetoPagamento
         private int parcelas;
         private float juros;
         private float limite = 2000;
-        public override void PagamentoCartao.Pagar()
+        public override void Pagar()
         {
             if (valor > limite)
             {
@@ -43,5 +43,6 @@ de 7 até 12 - acrécimo de 8% de juros
                 }
             }
         }
+
     }
 }
