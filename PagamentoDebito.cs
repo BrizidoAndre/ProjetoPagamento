@@ -21,22 +21,5 @@ namespace ProjetoPagamento
                 Console.WriteLine($"Erro! Tente novamente");
             }
         }
-
-        public void SalvarCartao()
-        {
-            Console.WriteLine("Digite o CVV do cartão:");
-            CVV = Console.ReadLine();
-
-            Console.WriteLine("Digite o nome do titular do cartão:");
-            Titular = Console.ReadLine();
-
-            Console.WriteLine("Digite o número do cartão:");
-            NumeroCartao = Console.ReadLine();
-
-            Console.WriteLine("Digite a bandeira do cartão:");
-            Bandeira = Console.ReadLine();
-
-            Console.WriteLine("Informações do cartão salvas com sucesso!");
-        }
     }
 }
