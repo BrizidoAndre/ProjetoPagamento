@@ -1,6 +1,6 @@
 namespace ProjetoPagamento
 {
-    public abstract class PagamentoCartao : Pagamento
+    public abstract class PagamentoCartao
     {
         public string Bandeira { get; set; }
         public string NumeroCartao { get; set; }
@@ -9,29 +9,12 @@ namespace ProjetoPagamento
 
 
 
-        public string SalvarCartao()
+        public abstract string SalvarCartao(string cartaoSalvo);
+
+        public void Pagar()
         {
-            Console.WriteLine("Digite o CVV do cartão:");
-            this.CVV = Console.ReadLine();
-
-            Console.WriteLine("Digite o nome do titular do cartão:");
-            this.Titular = Console.ReadLine();
-
-            Console.WriteLine("Digite o número do cartão:");
-            this.NumeroCartao = Console.ReadLine();
-
-            Console.WriteLine("Digite a bandeira do cartão:");
-            this.Bandeira = Console.ReadLine();
-
-            return @$"Informações do cartão salvas com sucesso!
-            Sendo as informacoes :
-            Bandeira : {this.Bandeira}
-            Titular do Cartao : {this.Titular}
-            CVV : {this.CVV}
-            Numero do Cartao : {this.NumeroCartao}";
+           Console.WriteLine($"O pagamento foi efetuado com sucesso .");
+            
         }
-
-        public abstract void Pagar();
-
     }
 }

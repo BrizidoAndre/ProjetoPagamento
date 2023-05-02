@@ -1,4 +1,3 @@
-
 namespace ProjetoPagamento
 {
     public class PagamentoDebito : PagamentoCartao
