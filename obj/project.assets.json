@@ -8,26 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\23655858841\\.nuget\\packages\\": {}
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
+      "projectUniqueName": "C:\\Users\\T-Gamer\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
       "projectName": "ProjetoPagamento",
-      "projectPath": "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
-      "packagesPath": "C:\\Users\\23655858841\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento\\obj\\",
+      "projectPath": "C:\\Users\\T-Gamer\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
+      "packagesPath": "C:\\Users\\T-Gamer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\T-Gamer\\Desktop\\ProjetoPagamento\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\23655858841\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\T-Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
