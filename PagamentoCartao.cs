@@ -1,6 +1,6 @@
 namespace ProjetoPagamento
 {
-    public abstract class PagamentoCartao
+    public abstract class PagamentoCartao : Pagamento
     {
         public string Bandeira { get; set; }
         public string NumeroCartao { get; set; }
@@ -12,6 +12,6 @@ namespace ProjetoPagamento
         public abstract string SalvarCartao(string cartaoSalvo);
 
         public abstract void Pagar();
-        
+
     }
 }
