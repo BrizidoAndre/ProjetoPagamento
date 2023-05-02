@@ -1,6 +1,23 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\47447272809\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\47447272809\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\47447272809\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
+        "projectName": "ProjetoPagamento",
+        "projectPath": "C:\\Users\\47447272809\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
+        "packagesPath": "C:\\Users\\47447272809\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\47447272809\\Desktop\\ProjetoPagamento\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\47447272809\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
     "C:\\Users\\Basilios\\Desktop\\Nova pasta\\ProjetoPagamento\\ProjetoPagamento.csproj": {}
   },
   "projects": {
@@ -15,6 +32,7 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Basilios\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 27ce7d2fafb19400329864924e6cd812f88b552d
         ],
         "originalTargetFrameworks": [
           "net7.0"
