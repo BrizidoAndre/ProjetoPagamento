@@ -2,7 +2,7 @@ namespace ProjetoPagamento
 {
     public class PagamentoDebito : PagamentoCartao
     {
-        private float saldo = 3000;
+        public float saldo { get; private set; } = 3000;
 
 
         public override void Pagar()
