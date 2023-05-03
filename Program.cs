@@ -2,8 +2,9 @@
 
 string opcao = "";
 Boleto PagarBoleto = new Boleto();
-Pagamento pague = new Pagamento();
-PagamentoDebito debito = new PagamentoDebito();
+Pagamento Pague = new Pagamento();
+PagamentoDebito Debito = new PagamentoDebito();
+PagamentoCredito Credito = new PagamentoCredito();
 
 
 
@@ -21,6 +22,8 @@ void menu()
 |   0- Sair/Fechar                          |
  -------------------------------------------
 ");
+    Console.ResetColor();
+    Console.ForegroundColor = ConsoleColor.DarkYellow;
     Console.WriteLine($"Seleciona a opção desejada: ");
     Console.ResetColor();
     opcao = Console.ReadLine();
@@ -32,7 +35,9 @@ do
     switch (opcao)
     {
         case "1":
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine($"Qual o valor do seu pagamento?: ");
+            Console.ResetColor();
             PagarBoleto.valor = float.Parse(Console.ReadLine());
 
 
@@ -45,20 +50,29 @@ do
 
 
         case "2":
-            debito.SalvarCartao();
+            Debito.SalvarCartao();
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine($"Qual o valor do seu pagamento?: ");
+            Credito.valor = float.Parse(Console.ReadLine());
+            Console.ResetColor();
+
+
+            Credito.Pagar();
             break;
 
         case "3":
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine($"Qual o valor do seu pagamento?: ");
-            debito.valor = float.Parse(Console.ReadLine());
-            debito.SalvarCartao();
-            debito.Pagar();
+            Console.ResetColor();
+            Debito.valor = float.Parse(Console.ReadLine());
+            Debito.SalvarCartao();
+            Debito.Pagar();
             break;
 
 
         case "0":
             break;
-            
+
         default:
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine($"Opção inexistente! Tente novamente: ");
@@ -70,5 +84,5 @@ do
 
 } while (opcao != "0");
 Console.ForegroundColor = ConsoleColor.Red;
-Console.WriteLine(pague.Cancelar());
+Console.WriteLine(Pague.Cancelar());
 Console.ResetColor();

@@ -1,6 +1,6 @@
 namespace ProjetoPagamento
 {
-    public abstract class PagamentoCartao:Pagamento
+    public abstract class PagamentoCartao : Pagamento
     {
         public string Bandeira { get; set; }
         public string NumeroCartao { get; set; }
@@ -12,15 +12,19 @@ namespace ProjetoPagamento
         public void SalvarCartao()
         {
             string bandeira = "";
-
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("Digite o CVV do cartão:");
+            Console.ResetColor();
             CVV = Console.ReadLine();
-
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("Digite o nome do titular do cartão:");
+            Console.ResetColor();
             Titular = Console.ReadLine();
-
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("Digite o número do cartão:");
+            Console.ResetColor();
             NumeroCartao = Console.ReadLine();
+            Console.ResetColor();
 
             do
             {
@@ -40,9 +44,9 @@ namespace ProjetoPagamento
         ");
 
                 Console.WriteLine($"Selecione a bandeira:");
+                Console.ResetColor();
 
                 bandeira = Console.ReadLine();
-                Console.ResetColor();
                 switch (bandeira)
                 {
                     case "1":
@@ -83,7 +87,9 @@ namespace ProjetoPagamento
                         bandeira = Console.ReadLine();
                         break;
                 }
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Informações do cartão salvas com sucesso!");
+                Console.ResetColor();
                 break;
             } while (bandeira != "0");
 
