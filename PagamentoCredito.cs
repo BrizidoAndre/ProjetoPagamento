@@ -7,12 +7,12 @@ namespace ProjetoPagamento
 {
     public class PagamentoCredito : PagamentoCartao
     {
-        private int parcelas;
-        private float juros;
-        private float limite = 2000;
+        public int Parcelas { get; private set; }
+        public float Juros { get; private set; }
+        public float Limite { get; private set; } = 2000;
         public override void Pagar()
         {
-            if (valor > limite)
+            if (valor > Limite)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"O valor ultrapassou o limite!");
@@ -28,19 +28,19 @@ até 6 - acrécimo de 5% de juros
 de 7 até 12 - acrécimo de 8% de juros
 0 - Não quero parcelar");
                 Console.ResetColor();
-                parcelas = int.Parse(Console.ReadLine());
-                if (parcelas < 7 && parcelas > 0)
+                Parcelas = int.Parse(Console.ReadLine());
+                if (Parcelas < 7 && Parcelas > 0)
                 {
-                    juros = 0.05F;
-                    valor = valor + (valor * juros);
+                    Juros = 0.05F;
+                    valor = valor + (valor * Juros);
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine($"O valor total ficará R${valor}");
                     Console.ResetColor();
                 }
-                else if (parcelas >= 7 && parcelas <= 12)
+                else if (Parcelas >= 7 && Parcelas <= 12)
                 {
-                    juros = 0.08F;
-                    valor = valor + (valor * juros);
+                    Juros = 0.08F;
+                    valor = valor + (valor * Juros);
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine($"O valor total ficará R${valor}");
                     Console.ResetColor();

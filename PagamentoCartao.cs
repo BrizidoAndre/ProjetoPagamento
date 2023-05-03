@@ -3,9 +3,9 @@ namespace ProjetoPagamento
     public abstract class PagamentoCartao : Pagamento
     {
         public string Bandeira { get; set; }
-        public string NumeroCartao { get; set; }
-        public string Titular { get; set; }
-        public string CVV { get; set; }
+        public string NumeroCartao { get; private set; }
+        public string Titular { get; private set; }
+        public string CVV { get; private set; }
 
 
         abstract public void Pagar();
