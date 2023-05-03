@@ -1,11 +1,11 @@
-
 namespace ProjetoPagamento
 {
     public class PagamentoDebito : PagamentoCartao
     {
         private float saldo = 3000;
+        
 
-        public override void Pagar(float saldoAtual)
+        public override void Pagar()
         {
             if (valor > saldo)
             {
@@ -13,7 +13,7 @@ namespace ProjetoPagamento
             }
             else if (saldo >= valor)
             {
-                saldoAtual = saldo - valor;
+                float saldoAtual = saldo - valor;
                 Console.WriteLine($"Pagamento de R${valor} realizado com sucesso. Novo saldo: R${saldoAtual}");
             }
             else

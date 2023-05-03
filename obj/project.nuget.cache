@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "0xAiC79n2JBQUizQyeviGDjtGa1zlyqgd6BPlOu7Rg7OCNQHPvaOknO/c+i19J1mv6Bmy0OEUaFcjcIyONYJdA==",
+  "dgSpecHash": "QvJ1WXdKVZkUU72VPhDdutesEwuQqmGmLABEK6JzYIFrsN3sQ+p5dDRSXL9kGlPtkVHYbFHGF5ra2sQbAEJtQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\47447272809\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
-=======
-  "dgSpecHash": "I3h/C6WBimYDr8JLeNkumzGYwsskP1ZPx8zAK7ElFjhHR7TtP0vFH2YaLJEYaDo7ykQHYx6knOxIuKSQ1tlcpQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Basilios\\Desktop\\Nova pasta\\ProjetoPagamento\\ProjetoPagamento.csproj",
->>>>>>> 27ce7d2fafb19400329864924e6cd812f88b552d
+  "projectFilePath": "C:\\Users\\51910007811\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
