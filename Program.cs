@@ -6,8 +6,6 @@ Pagamento Pague = new Pagamento();
 PagamentoDebito Debito = new PagamentoDebito();
 PagamentoCredito Credito = new PagamentoCredito();
 
-
-
 void menu()
 {
     Console.ForegroundColor = ConsoleColor.Blue;
@@ -39,15 +37,9 @@ do
             Console.WriteLine($"Qual o valor do seu pagamento?: ");
             Console.ResetColor();
             PagarBoleto.valor = float.Parse(Console.ReadLine());
-
-
             Console.WriteLine(PagarBoleto.CodigoDeBarras());
             PagarBoleto.Registrar();
             break;
-
-
-
-
 
         case "2":
             Debito.SalvarCartao();
@@ -55,8 +47,6 @@ do
             Console.WriteLine($"Qual o valor do seu pagamento?: ");
             Credito.valor = float.Parse(Console.ReadLine());
             Console.ResetColor();
-
-
             Credito.Pagar();
             break;
 
@@ -69,7 +59,6 @@ do
             Debito.Pagar();
             break;
 
-
         case "0":
             break;
 
@@ -80,7 +69,6 @@ do
             opcao = Console.ReadLine();
             break;
     }
-
 
 } while (opcao != "0");
 Console.ForegroundColor = ConsoleColor.Red;

@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ProjetoPagamento;
 namespace ProjetoPagamento
 {
     public class PagamentoCredito : PagamentoCartao
@@ -36,6 +31,26 @@ de 7 até 12 - acrécimo de 8% de juros
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine($"O valor total ficará R${valor}");
                     Console.ResetColor();
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;                 
+                    Console.WriteLine($"Deseja cancelar a operação? S/N");
+                    Console.ResetColor();
+                    string cancelarOperacao = Console.ReadLine().ToUpper();
+
+                    if (cancelarOperacao == "N")
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"Operação concluída!");
+                        Console.ResetColor();
+
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"Operação cancelada!");
+                        Console.ResetColor();
+
+                    }
+
                 }
                 else if (parcelas >= 7 && parcelas <= 12)
                 {
@@ -44,6 +59,24 @@ de 7 até 12 - acrécimo de 8% de juros
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine($"O valor total ficará R${valor}");
                     Console.ResetColor();
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;                 
+                    Console.WriteLine($"Deseja cancelar a operação? S/N");
+                    Console.ResetColor();
+                    string cancelarOperacao = Console.ReadLine().ToUpper();
+
+                    if (cancelarOperacao == "N")
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"Operação concluída!");
+                        Console.ResetColor();
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"Operação cancelada!");
+                        Console.ResetColor();
+                    }
+
                 }
                 else
                 {
