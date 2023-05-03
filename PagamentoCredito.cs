@@ -28,13 +28,13 @@ de 7 até 12 - acrécimo de 8% de juros
                 if (parcelas < 7 && parcelas>0)
                 {
                     juros = 0.05F;
-                    valor = valor + (valor*juros);
+                    valor = valor + (valor * juros);
                     Console.WriteLine($"O valor total ficará R${valor}");
                 }
                 if (parcelas>=7 && parcelas<=12)
                 {
                     juros = 0.08F;
-                    valor = valor + (valor*juros);
+                    valor = valor + (valor * juros);
                     Console.WriteLine($"O valor total ficará R${valor}");
                 }
                 else
