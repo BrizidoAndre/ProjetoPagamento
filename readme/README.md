@@ -4,4 +4,6 @@
 
 ### Colaboradores do Projeto !
 
+<img src="./assets/images/colaborador - andre-brizido" border-radius="50px">
+
 
