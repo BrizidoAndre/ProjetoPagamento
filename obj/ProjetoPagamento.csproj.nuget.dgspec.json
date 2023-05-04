@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj": {}
+    "C:\\Users\\49470161831\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj": {}
   },
   "projects": {
-    "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj": {
+    "C:\\Users\\49470161831\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
+        "projectUniqueName": "C:\\Users\\49470161831\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
         "projectName": "ProjetoPagamento",
-        "projectPath": "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
-        "packagesPath": "C:\\Users\\23655858841\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\23655858841\\Desktop\\ProjetoPagamento\\obj\\",
+        "projectPath": "C:\\Users\\49470161831\\Desktop\\ProjetoPagamento\\ProjetoPagamento.csproj",
+        "packagesPath": "C:\\Users\\49470161831\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\49470161831\\Desktop\\ProjetoPagamento\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\23655858841\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\49470161831\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
