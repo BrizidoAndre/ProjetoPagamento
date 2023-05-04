@@ -23,7 +23,3 @@
 </div>
 
 <a href="https://www.imagensanimadas.com/cat-linhas-562.htm"><img src="https://www.imagensanimadas.com/data/media/562/linha-imagem-animada-0388.gif" border="0" alt="linha-imagem-animada-0388" width="100%" height="4px" /></a>
-
-## Um pouco do código: 💻
-
-<video src="./assets/videos" width="640" height="360" controls>
