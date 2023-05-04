@@ -6,6 +6,7 @@ Pagamento Pague = new Pagamento();
 PagamentoDebito Debito = new PagamentoDebito();
 PagamentoCredito Credito = new PagamentoCredito();
 
+
 void menu()
 {
     Console.ForegroundColor = ConsoleColor.Blue;
@@ -16,6 +17,7 @@ void menu()
 |   1- Boleto                               |
 |   2- Crédito                              |
 |   3- Débito                               |
+|   4- Cartões Salvos                       |
 |                                           |
 |   0- Sair/Fechar                          |
  -------------------------------------------
@@ -57,6 +59,10 @@ do
             Debito.valor = float.Parse(Console.ReadLine());
             Debito.SalvarCartao();
             Debito.Pagar();
+            break;
+
+        case "4":
+            Debito.DadosCartao();
             break;
 
         case "0":
