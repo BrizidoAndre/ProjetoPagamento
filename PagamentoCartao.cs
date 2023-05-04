@@ -11,7 +11,7 @@ namespace ProjetoPagamento
         abstract public void Pagar();
         public void SalvarCartao()
         {
-            string bandeira = "";
+            string Bandeira = "";
 
             Console.WriteLine("Digite o CVV do cartão:");
             CVV = Console.ReadLine();
@@ -41,9 +41,9 @@ namespace ProjetoPagamento
 
                 Console.WriteLine($"Selecione a bandeira:");
 
-                bandeira = Console.ReadLine();
+                Bandeira = Console.ReadLine();
                 Console.ResetColor();
-                switch (bandeira)
+                switch (Bandeira)
                 {
                     case "1":
                         Console.ForegroundColor = ConsoleColor.Green;
@@ -80,12 +80,12 @@ namespace ProjetoPagamento
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine($"Opção inexistente! Tente novamente: ");
                         Console.ResetColor();
-                        bandeira = Console.ReadLine();
+                        Bandeira = Console.ReadLine();
                         break;
                 }
                 Console.WriteLine("Informações do cartão salvas com sucesso!");
                 break;
-            } while (bandeira != "0");
+            } while (Bandeira != "0");
 
         }
 
