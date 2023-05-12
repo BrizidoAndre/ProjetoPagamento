@@ -58,16 +58,16 @@ Numero do Cartão: {NumeroCartao}");
 
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine(@$"
- -------------------------------------------
-|     Selecione a bandeira do cartão        |
-|                                           |
-|   1- Visa                                 |
-|   2- MasterCard                           |
-|   3- Elo                                  |
-|   4- American Express                     |
-|                                           |
-|   0- Sair/Fechar                          |
- -------------------------------------------
+ +++++++++++++++++++++++++++++++++++++++++++
+*     Selecione a bandeira do cartão        *
+*                                           *
+*   1- Visa                                 *
+*   2- MasterCard                           *
+*   3- Elo                                  *
+*   4- American Express                     *
+*                                           *
+*   0- Sair/Fechar                          *
+ +++++++++++++++++++++++++++++++++++++++++++
         ");
 
                 Console.WriteLine($"Selecione a bandeira:");
