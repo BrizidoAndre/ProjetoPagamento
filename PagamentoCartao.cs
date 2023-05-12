@@ -31,9 +31,16 @@ Numero do Cartão: {NumeroCartao}");
                     break;
                 default:
                     break;
-            }
-            Console.ResetColor();
 
+            }
+
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine($"Pressione Enter para continuar.");
+            Console.ResetColor();
+            
+            Console.ReadLine();
+            
         }
 
         public void SalvarCartao()
