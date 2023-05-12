@@ -54,7 +54,7 @@ do
             break;
 
         case "3":
-        Console.Clear();
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine($"Qual o valor do seu pagamento?: ");
             Console.ResetColor();
