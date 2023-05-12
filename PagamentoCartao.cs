@@ -31,9 +31,16 @@ Numero do Cartão: {NumeroCartao}");
                     break;
                 default:
                     break;
-            }
-            Console.ResetColor();
 
+            }
+
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine($"Pressione Enter para continuar.");
+            Console.ResetColor();
+            
+            Console.ReadLine();
+            
         }
 
         public void SalvarCartao()
@@ -58,16 +65,16 @@ Numero do Cartão: {NumeroCartao}");
 
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine(@$"
- -------------------------------------------
-|     Selecione a bandeira do cartão        |
-|                                           |
-|   1- Visa                                 |
-|   2- MasterCard                           |
-|   3- Elo                                  |
-|   4- American Express                     |
-|                                           |
-|   0- Sair/Fechar                          |
- -------------------------------------------
+ +++++++++++++++++++++++++++++++++++++++++++
+*     Selecione a bandeira do cartão        *
+*                                           *
+*   1- Visa                                 *
+*   2- MasterCard                           *
+*   3- Elo                                  *
+*   4- American Express                     *
+*                                           *
+*   0- Sair/Fechar                          *
+ +++++++++++++++++++++++++++++++++++++++++++
         ");
 
                 Console.WriteLine($"Selecione a bandeira:");

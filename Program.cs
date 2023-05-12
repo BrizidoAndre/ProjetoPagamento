@@ -9,6 +9,7 @@ PagamentoCredito Credito = new PagamentoCredito();
 
 void menu()
 {
+    Console.Clear();
     Console.ForegroundColor = ConsoleColor.Blue;
     Console.WriteLine(@$"
  -------------------------------------------

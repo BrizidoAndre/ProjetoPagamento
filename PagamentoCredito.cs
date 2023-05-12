@@ -32,11 +32,11 @@ de 7 até 12 - acrécimo de 8% de juros
                     Console.WriteLine($"O valor total ficará R${valor}");
                     Console.ResetColor();
                     Console.ForegroundColor = ConsoleColor.DarkYellow;                 
-                    Console.WriteLine($"Deseja cancelar a operação? S/N");
+                    Console.WriteLine($"Deseja continuar com a operação? S/N");
                     Console.ResetColor();
                     string cancelarOperacao = Console.ReadLine().ToUpper();
 
-                    if (cancelarOperacao == "N")
+                    if (cancelarOperacao == "S")
                     {
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine($"Operação concluída!");
@@ -60,11 +60,11 @@ de 7 até 12 - acrécimo de 8% de juros
                     Console.WriteLine($"O valor total ficará R${valor}");
                     Console.ResetColor();
                     Console.ForegroundColor = ConsoleColor.DarkYellow;                 
-                    Console.WriteLine($"Deseja cancelar a operação? S/N");
+                    Console.WriteLine($"Deseja continuar com a operação? S/N");
                     Console.ResetColor();
                     string cancelarOperacao = Console.ReadLine().ToUpper();
 
-                    if (cancelarOperacao == "N")
+                    if (cancelarOperacao == "S")
                     {
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine($"Operação concluída!");
