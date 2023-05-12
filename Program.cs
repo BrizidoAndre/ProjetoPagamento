@@ -9,7 +9,6 @@ PagamentoCredito Credito = new PagamentoCredito();
 
 void menu()
 {
-    Console.Clear();
     Console.ForegroundColor = ConsoleColor.Blue;
     Console.WriteLine(@$"
  -------------------------------------------
@@ -29,13 +28,14 @@ void menu()
     Console.ResetColor();
     opcao = Console.ReadLine();
 }
-
+Console.Clear();
 do
 {
     menu();
     switch (opcao)
     {
         case "1":
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine($"Qual o valor do seu pagamento?: ");
             Console.ResetColor();
@@ -54,6 +54,7 @@ do
             break;
 
         case "3":
+        Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine($"Qual o valor do seu pagamento?: ");
             Console.ResetColor();

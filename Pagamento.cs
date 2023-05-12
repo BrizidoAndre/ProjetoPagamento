@@ -23,7 +23,8 @@ namespace ProjetoPagamento
         {
 
 
-            return "A sessao de pagamento foi cancelada, Inicie outra sessao para acessar as opcoes novamente.";
+            return @"A sessão de pagamento foi cancelada.
+Inicie outra sessão para acessar as opções novamente.";
 
 
         }

@@ -17,11 +17,9 @@ namespace ProjetoPagamento
             {
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine(@$"
-Quer dividir o valor em quantas parcelas?
-Máximo de 12
-até 6 - acrécimo de 5% de juros
-de 7 até 12 - acrécimo de 8% de juros
-0 - Não quero parcelar");
+Quer dividir o valor em quantas parcelas? (Máximo de 12)
+Até 6       - acrécimo de 5% de juros
+De 7 até 12 - acrécimo de 8% de juros");
                 Console.ResetColor();
                 Parcelas = int.Parse(Console.ReadLine());
                 if (Parcelas < 7 && Parcelas > 0)
@@ -50,7 +48,6 @@ de 7 até 12 - acrécimo de 8% de juros
                         Console.ResetColor();
 
                     }
-
                 }
                 else if (Parcelas >= 7 && Parcelas <= 12)
                 {
@@ -69,12 +66,16 @@ de 7 até 12 - acrécimo de 8% de juros
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine($"Operação concluída!");
                         Console.ResetColor();
+                        Console.ReadLine();
+                        
                     }
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine($"Operação cancelada!");
                         Console.ResetColor();
+                        Console.ReadLine();
+                        
                     }
 
                 }

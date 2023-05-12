@@ -36,11 +36,11 @@ Numero do Cartão: {NumeroCartao}");
 
             Console.ResetColor();
             Console.ForegroundColor = ConsoleColor.DarkGray;
-            Console.WriteLine($"Pressione Enter para continuar.");
-            Console.ResetColor();
-            
+            Console.WriteLine($"Pressione ENTER para continuar");
             Console.ReadLine();
-            
+
+            Console.ReadLine();
+
         }
 
         public void SalvarCartao()
@@ -59,10 +59,9 @@ Numero do Cartão: {NumeroCartao}");
             Console.ResetColor();
             NumeroCartao = Console.ReadLine();
             Console.ResetColor();
-
             do
             {
-
+                Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine(@$"
  +++++++++++++++++++++++++++++++++++++++++++
@@ -124,6 +123,9 @@ Numero do Cartão: {NumeroCartao}");
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Informações do cartão salvas com sucesso!");
                 Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine($"Pressione ENTER para continuar");
+                Console.ReadLine();
                 break;
             } while (Bandeira != "0");
 

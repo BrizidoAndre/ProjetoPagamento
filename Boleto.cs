@@ -27,6 +27,10 @@ namespace ProjetoPagamento
             Console.WriteLine($"No dia de {date1}");
             Console.WriteLine($"O total a ser pago é de: R$ {valorBoleto}");
             Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine($"Pressione ENTER para continuar");
+            Console.ReadLine();
+            
         }
     }
 }
